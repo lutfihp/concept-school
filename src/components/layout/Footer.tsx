@@ -39,7 +39,7 @@ export default async function Footer() {
   return (
     <footer className="bg-primary-dark text-white border-t-2 border-accent">
       {/* Main grid */}
-      <div className="max-w-[1200px] mx-auto px-6 py-16 grid gap-10 min-[820px]:grid-cols-3">
+      <div className="max-w-300 mx-auto px-6 py-16 grid gap-10 min-[820px]:grid-cols-3">
         {/* Col 1: Brand */}
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3">
@@ -96,7 +96,7 @@ export default async function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/10">
-        <div className="max-w-[1200px] mx-auto px-6 py-4 flex flex-col min-[680px]:flex-row gap-2 min-[680px]:items-center min-[680px]:justify-between text-xs text-white/50">
+        <div className="max-w-300 mx-auto px-6 py-4 flex flex-col min-[680px]:flex-row gap-2 min-[680px]:items-center min-[680px]:justify-between text-xs text-white/50">
           <span>© {year} {tBrand('name')}. {tFooter('rights')}</span>
           <span className="border-l-2 border-accent pl-3 italic text-white/40">
             {tFooter('disclaimer')}

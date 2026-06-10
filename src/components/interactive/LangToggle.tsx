@@ -16,7 +16,7 @@ export default function LangToggle() {
 
   return (
     <div
-      className="inline-flex rounded-[var(--radius)] border border-border overflow-hidden text-xs font-semibold"
+      className="inline-flex rounded-(--radius) border border-border overflow-hidden text-xs font-semibold"
       role="group"
       aria-label="Language toggle"
     >
@@ -25,7 +25,7 @@ export default function LangToggle() {
           key={l}
           onClick={() => handleToggle(l)}
           aria-pressed={l === locale}
-          className={`px-2.5 py-1 uppercase transition-colors min-w-[32px] ${
+          className={`px-2.5 py-1 uppercase transition-colors min-w-8 ${
             l === locale
               ? 'bg-primary text-white'
               : 'bg-white text-ink-muted hover:bg-surface-alt'

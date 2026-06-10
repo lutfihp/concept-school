@@ -75,12 +75,12 @@ export default function MobileMenu({ id, open, onClose, navLinks, ctaLabel }: Mo
         role="dialog"
         aria-modal="true"
         aria-label="Navigation menu"
-        className={`fixed top-0 right-0 h-full w-[min(360px,100vw)] bg-white z-50 flex flex-col shadow-[var(--shadow-md)] transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-[min(360px,100vw)] bg-white z-50 flex flex-col shadow-(--shadow-md) transition-transform duration-300 ${
           open ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         {/* Header */}
-        <div className="bg-primary flex items-center justify-between px-4 py-3 flex-shrink-0">
+        <div className="bg-primary flex items-center justify-between px-4 py-3 shrink-0">
           <div className="flex items-center gap-2">
             <Crest size="sm" />
             <span className="font-heading font-semibold text-white text-sm leading-tight">
@@ -90,7 +90,7 @@ export default function MobileMenu({ id, open, onClose, navLinks, ctaLabel }: Mo
           <button
             onClick={onClose}
             aria-label="Close navigation menu"
-            className="p-2 -mr-1 text-white/70 hover:text-white transition-colors rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
+            className="p-2 -mr-1 text-white/70 hover:text-white transition-colors rounded focus-visible:outline-2 focus-visible:outline-accent"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <line x1="18" y1="6" x2="6" y2="18" />
@@ -114,7 +114,7 @@ export default function MobileMenu({ id, open, onClose, navLinks, ctaLabel }: Mo
         </nav>
 
         {/* Footer: CTA + lang toggle */}
-        <div className="flex-shrink-0 border-t border-border px-4 py-4 flex flex-col gap-3">
+        <div className="shrink-0 border-t border-border px-4 py-4 flex flex-col gap-3">
           <Button
             variant="accent"
             href="#ppdb"

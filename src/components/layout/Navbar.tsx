@@ -45,14 +45,14 @@ export default function Navbar() {
     <>
       <header
         className={`sticky top-0 z-40 bg-white border-b border-border transition-shadow duration-150 ${
-          scrolled ? 'shadow-[var(--shadow-md)]' : ''
+          scrolled ? 'shadow-(--shadow-md)' : ''
         }`}
       >
-        <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between h-16">
+        <div className="max-w-300 mx-auto px-6 flex items-center justify-between h-16">
           {/* Brand */}
           <Link
             href="/"
-            className="flex items-center gap-3 focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent rounded"
+            className="flex items-center gap-3 focus-visible:outline-2 focus-visible:outline-accent rounded"
           >
             <Crest size="sm" />
             <div className="leading-tight">
@@ -95,7 +95,7 @@ export default function Navbar() {
               aria-label="Open navigation menu"
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
-              className="p-2 -mr-1 text-ink hover:text-primary transition-colors rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
+              className="p-2 -mr-1 text-ink hover:text-primary transition-colors rounded focus-visible:outline-2 focus-visible:outline-accent"
             >
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <line x1="3" y1="6"  x2="21" y2="6"  />

@@ -20,7 +20,7 @@ export default function Badge({
   children,
   className = '',
 }: BadgeProps) {
-  const shape = variant === 'pill' ? 'rounded-full px-3 py-0.5' : 'rounded-[var(--radius)] px-2 py-0.5';
+  const shape = variant === 'pill' ? 'rounded-full px-3 py-0.5' : 'rounded-(--radius) px-2 py-0.5';
   return (
     <span
       className={`inline-block text-xs font-semibold uppercase tracking-wide ${shape} ${colors[color]} ${className}`}

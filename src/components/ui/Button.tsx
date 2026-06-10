@@ -33,7 +33,7 @@ export default function Button({
   disabled,
 }: ButtonProps) {
   const base =
-    'inline-flex items-center justify-center font-semibold rounded-[var(--radius)] transition-colors duration-150 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent';
+    'inline-flex items-center justify-center font-semibold rounded-(--radius) transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent';
   const sizeClass = variant !== 'link-arrow' ? sizes[size] : '';
   const cls = `${base} ${variants[variant]} ${sizeClass} ${className}`.trim();
 

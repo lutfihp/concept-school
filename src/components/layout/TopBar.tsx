@@ -5,10 +5,10 @@ export default async function TopBar() {
 
   return (
     <div className="hidden min-[860px]:flex bg-primary-dark text-white text-xs">
-      <div className="max-w-[1200px] w-full mx-auto px-6 h-[38px] flex items-center justify-between">
+      <div className="max-w-300 w-full mx-auto px-6 h-9.5 flex items-center justify-between">
         {/* Accreditation badge */}
         <div className="flex items-center gap-2">
-          <span className="inline-block w-2 h-2 rounded-full bg-accent flex-shrink-0" aria-hidden="true" />
+          <span className="inline-block w-2 h-2 rounded-full bg-accent shrink-0" aria-hidden="true" />
           <span className="font-semibold tracking-wide">{t('accr')}</span>
         </div>
 
