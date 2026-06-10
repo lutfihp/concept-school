@@ -1,35 +1,19 @@
 # Image Attribution
 
-All photos sourced from [Pexels](https://www.pexels.com/) under the [Pexels License](https://www.pexels.com/license/).
+All images sourced from [Pexels](https://www.pexels.com/) under the [Pexels License](https://www.pexels.com/license/).
 
-Download each image from Pexels, rename as shown, and fill in this table.
+| Slot | Photo ID | Pexels Page |
+|---|---|---|
+| Hero background | 256395 | https://www.pexels.com/photo/256395 |
+| About section | 3769021 | https://www.pexels.com/photo/3769021 |
+| Principal portrait | 2379004 | https://www.pexels.com/photo/2379004 |
+| Facility — Lab IPA | 2280571 | https://www.pexels.com/photo/2280571 |
+| Facility — Perpustakaan | 590493 | https://www.pexels.com/photo/590493 |
+| Facility — Lapangan | 1634149 | https://www.pexels.com/photo/1634149 |
+| Facility — Ruang Komputer | 1181244 | https://www.pexels.com/photo/1181244 |
+| Facility — Aula | 257636 | https://www.pexels.com/photo/257636 |
+| Facility — Ruang Kelas | 289737 | https://www.pexels.com/photo/289737 |
+| News thumb 1 | 8613312 | https://www.pexels.com/photo/8613312 |
+| News thumb 2 | 1184579 | https://www.pexels.com/photo/1184579 |
 
-| File | Dimensions | Title | Photographer | URL |
-|---|---|---|---|---|
-| `hero.jpg` | 1440×900 | | | |
-| `about.jpg` | 600×700 | | | |
-| `principal.jpg` | 64×64 | | | |
-| `facility-lab.jpg` | 800×600 | | | |
-| `facility-library.jpg` | 800×600 | | | |
-| `facility-field.jpg` | 800×600 | | | |
-| `facility-computer.jpg` | 800×600 | | | |
-| `facility-hall.jpg` | 800×600 | | | |
-| `facility-classroom.jpg` | 800×600 | | | |
-| `news-1.jpg` | 400×250 | | | |
-| `news-2.jpg` | 400×250 | | | |
-
-## Suggested Pexels searches
-
-| File | Search link |
-|---|---|
-| `hero.jpg` | https://www.pexels.com/search/school%20building%20exterior/ |
-| `about.jpg` | https://www.pexels.com/search/students%20uniform/ |
-| `principal.jpg` | https://www.pexels.com/search/principal%20portrait%20formal/ |
-| `facility-lab.jpg` | https://www.pexels.com/search/science%20laboratory/ |
-| `facility-library.jpg` | https://www.pexels.com/search/library%20shelves/ |
-| `facility-field.jpg` | https://www.pexels.com/search/school%20sports%20field/ |
-| `facility-computer.jpg` | https://www.pexels.com/search/computer%20lab/ |
-| `facility-hall.jpg` | https://www.pexels.com/search/auditorium%20hall/ |
-| `facility-classroom.jpg` | https://www.pexels.com/search/classroom/ |
-| `news-1.jpg` | https://www.pexels.com/search/student%20award%20ceremony/ |
-| `news-2.jpg` | https://www.pexels.com/search/flag%20ceremony/ |
+> If any image loads as "Photo not found", visit the Pexels page and pick a replacement — update the ID constant at the top of the relevant component file.
