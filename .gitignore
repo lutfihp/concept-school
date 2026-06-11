@@ -15,3 +15,6 @@ out/
 .env.production.local
 
 npm-debug.log*
+
+# design handoffs (consumed — assets copied, spec in docs/)
+handoffs/
