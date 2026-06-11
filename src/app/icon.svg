@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <polygon points="8.3,7 55.7,7 55.7,47 32,58.2 8.3,47" fill="#15294D" stroke="#C2A14D" stroke-width="3.5" stroke-linejoin="round"></polygon>
+  <text x="32" y="28" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,&#39;Times New Roman&#39;,serif" font-weight="700" font-size="21" fill="#FFFFFF">BPU</text>
+  <text x="32" y="41.5" text-anchor="middle" dominant-baseline="middle" font-family="Georgia,serif" font-weight="700" font-size="7" letter-spacing="0.5" fill="#C2A14D">1998</text>
+</svg>
