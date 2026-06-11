@@ -5,7 +5,7 @@ import FacilitiesGrid, { type FacilityItem } from '@/components/interactive/Faci
 const FAC_IMAGES = [
   'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
   'https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
-  'https://images.pexels.com/photos/1634149/pexels-photo-1634149.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
+  'https://images.pexels.com/photos/972513/pexels-photo-972513.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
   'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
   'https://images.pexels.com/photos/257636/pexels-photo-257636.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
   'https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
